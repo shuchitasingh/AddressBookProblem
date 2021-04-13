@@ -8,5 +8,8 @@ public class Main {
 		
 		Contact storeValue = new Contact("abc", "efg", "klm", "mno", "abc01@gmail.in", 909878, 10230);
 		storeValue.Display();
+		
+		AddContact displayContact = new AddContact();
+		displayContact.NewContact();
 	}
 }
